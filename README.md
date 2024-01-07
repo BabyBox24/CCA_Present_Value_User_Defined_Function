@@ -12,8 +12,13 @@ The custom function should work at that point.
 
 
 Cost_Of_Asset = Initial Cost of Asset
+
 Corp_Tax_Rate = Marginal Tax Rate
+
 Salvage_Value = Salvage Value of Asset
+
 CCA_Tax_Rate = Capital Cost Allowance Rate
+
 Discount_Rate = Required Rate of Return
+
 Number_Of_Periods = How long you plan to use the Asset
