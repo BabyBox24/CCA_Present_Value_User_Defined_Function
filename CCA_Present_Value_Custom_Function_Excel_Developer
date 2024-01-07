@@ -1,0 +1,3 @@
+Public Function CCA_Tax_Shield_Calculation(Cost_Of_Asset As Double, Corp_Tax_Rate As Double, Salvage_Value As Double, CCA_Tax_Rate As Double, Discount_Rate As Double, Number_Of_Periods) As Double
+CCA_Tax_Shield_Calculation = ((Cost_Of_Asset * Corp_Tax_Rate * CCA_Tax_Rate) / (CCA_Tax_Rate + Discount_Rate)) * ((1 + (0.5 * Discount_Rate)) / (1 + Discount_Rate)) - ((Salvage_Value * Corp_Tax_Rate * CCA_Tax_Rate) / (CCA_Tax_Rate + Discount_Rate)) * (1 / (1 + Discount_Rate) ^ Number_Of_Periods)
+End Function
